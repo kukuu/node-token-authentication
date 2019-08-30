@@ -10,7 +10,7 @@ This is a starting point to demonstrate the method of authentication by verifyin
 
 ## Usage
 
-1. Clone the repo: `git clone git@github.com:scotch-io/node-token-authentication`
+1. Clone the repo: `https://github.com/kukuu/node-token-authentication.git`
 2. Install dependencies: `npm install`
 3. Change SECRET in `config.js`
 4. Add your own MongoDB database to `config.js`
@@ -25,7 +25,7 @@ Send a `POST` request to `http://localhost:8080/api/authenticate` with test user
 
 ```
   {
-    name: 'Nick Cerminara',
+    name: 'Luca Trinca',
     password: 'password'
   }
 ```
