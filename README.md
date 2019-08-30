@@ -16,6 +16,7 @@ This is a starting point to demonstrate the method of authentication by verifyin
 4. Add your own MongoDB database to `config.js`
 5. Start the server: `node server.js`
 6. Create sample user by visiting: `http://localhost:8080/setup`
+7. Ensure to keep secret key, and other sensitive information in an environmental variable in production. Instal dotenv module for this, and apply a conditional detection for the environment
 
 Once everything is set up, we can begin to use our app by creating and verifying tokens.
 
